@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket   = "terraform-state-files-2029"
-    prefix = "terraform/state/network"
+    bucket = "terraform-state-files-2029"
+    prefix = "terraform/state/compute"
   }
 }
 
@@ -19,4 +19,3 @@ terraform {
     path = "network.tfstate"
   }
 }*/
-
